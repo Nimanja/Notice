@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".Notices">
+
+        <Button
+            android:id="@+id/btn17"
+            android:layout_width="160dp"
+            android:layout_height="150dp"
+            android:layout_marginBottom="40dp"
+            android:background="@drawable/asset"
+            android:text="ADS"
+            app:layout_constraintBottom_toTopOf="@+id/btn19"
+            app:layout_constraintEnd_toStartOf="@+id/btn18"
+            app:layout_constraintHorizontal_bias="0.373"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn15"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <Button
+            android:id="@+id/btn13"
+            android:layout_width="160dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/asset"
+            android:text="Time Table"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btn18"
+            android:layout_width="160dp"
+            android:layout_height="150dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/asset"
+            android:text="FeedBack"
+            app:layout_constraintBottom_toTopOf="@+id/btn19"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn16"
+            app:layout_constraintVertical_bias="0.047" />
+
+        <Button
+            android:id="@+id/btn16"
+            android:layout_width="160dp"
+            android:layout_height="150dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/asset"
+            android:text="News"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn13" />
+
+        <Button
+            android:id="@+id/btn12"
+            android:layout_width="160dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/asset"
+            android:text="Class"
+            app:layout_constraintEnd_toStartOf="@+id/btn13"
+            app:layout_constraintHorizontal_bias="0.474"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btn15"
+            android:layout_width="160dp"
+            android:layout_height="150dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/asset"
+            android:text="Teachers"
+            app:layout_constraintEnd_toStartOf="@+id/btn16"
+            app:layout_constraintHorizontal_bias="0.474"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn12" />
+
+        <Button
+            android:id="@+id/btn19"
+            android:layout_width="364dp"
+            android:layout_height="56dp"
+            android:layout_marginTop="520dp"
+            android:text="Add FeedBack"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.595"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
